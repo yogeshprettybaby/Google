@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+    <head>
+
+        <title> Light Machine Guns</title>
+
+        <link rel = "icon" href = "icon.png" type = "image/png">
+
+    </head>
+
+
+    <!--Background image for Ar guns-->
+    <style>
+        body {
+        background-image: url("light.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: top;
+        }
+         h1 {
+            text-align: center;
+            font-family:cursive;
+            font-size: 50px;
+            color: rgb(25, 24, 25);
+         }
+         p {
+            
+            text-align: right;
+            font-size: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         }
+         #div1 {
+            margin: 100px;
+            float: left;
+            width: 33.33%;
+         }
+         #div2 {
+            margin: 100px;
+            width: 33.33%;
+            float: right;
+         }
+        
+    </style>
+
+    <body>
+        
+        <h1>LIGHT MACHINE GUNS</h1>
+
+
+        <div id="div1">
+
+            <a href="https://pubg.fandom.com/wiki/DP-28" target="parent"><img src="dp.png" title="DP-28" height="260px" width="400px"></a>
+            <button id="dpbutton" style="color: black;background-color:lightsalmon;border-color: lightcoral;">Review</button>
+            
+        </div>
+
+        <div id="div2">
+
+            <a href="https://pubg.fandom.com/wiki/M249" target="parent"><img src="m249.png" title="M249" height="260px" width="400px"></a>
+            <button id="m249button" style="color: black;background-color:lightsalmon;border-color: lightcoral;">Review</button><br>
+
+        </div>
+        
+        <script>
+            
+            document.getElementById("dpbutton").onclick = function(){
+                window.alert("This is Dp-28...❤️")
+            }      
+
+            document.getElementById("m249button").onclick = function(){
+                window.alert("This is M249...❤️")
+            }
+               
+        </script>
+
+        
+        <script src="index.js"></script>
+
+    </body>
+
+
+</html>
